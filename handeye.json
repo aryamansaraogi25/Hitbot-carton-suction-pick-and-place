@@ -1,0 +1,43 @@
+{
+  "X_flange_camera": [
+    [
+      0.028565321486720308,
+      -0.9995802155137087,
+      0.004838921566631837,
+      0.08466121098196706
+    ],
+    [
+      0.9994310142869727,
+      0.02847353068451186,
+      -0.018080534606901906,
+      -0.025513894291694858
+    ],
+    [
+      0.017935163497262638,
+      0.005352644573091998,
+      0.9998248242099215,
+      0.026924602419239843
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "euler_convention": "ZYX",
+  "method": "tsai_lenz",
+  "residual_mm": 9.65625230444888,
+  "residual_deg": 1.882345760101567,
+  "n_samples": 15,
+  "board": {
+    "squares": [
+      5,
+      7
+    ],
+    "square_mm": 37.0,
+    "marker_mm": 27.0,
+    "dict": "DICT_4X4_50"
+  },
+  "z_correction_note": "X[2,3] += 90mm empirical touch-off 2026-07-17: hover at 30mm measured ~120mm above box. Z along tool axis was weakly observed in the AX=XB solve (roll-dominated motions). Original in handeye_pre_zfix.json"
+}
