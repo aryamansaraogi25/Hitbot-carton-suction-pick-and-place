@@ -182,3 +182,7 @@ flip those two helper functions.
   clustering constants near the top of `carton_pose.py`.
 - `GetInverseKin does not reproduce the current joints`: do not move; the API
   format, robot model, or Euler convention needs investigation.
+
+## Author
+
+Aryaman Saraogi
